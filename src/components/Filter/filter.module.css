@@ -1,0 +1,38 @@
+.filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter .category {
+    box-sizing: border-box;
+    padding: 0.5em;
+    margin: 1em;
+    background-color: #F0F2F5;
+    border-radius: 8px;
+    transition: transform 500ms;
+}
+
+.filter .category.active {
+    background-color: #D9DEE2;
+}
+
+/* .filter .category:hover,
+.filter .category:focus {
+    background-color: #D9DEE2;
+    transform: scale(1.2);
+    z-index: 1;
+    cursor: pointer;
+} */
+
+.filter .category:hover {
+    background-color: #D9DEE2;
+    cursor: pointer;
+    box-shadow: 2px 4px #415666;
+}
+
+.filter .category p {
+    font-size: 12px;
+    margin: 0;
+}

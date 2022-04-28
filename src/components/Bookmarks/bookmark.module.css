@@ -1,0 +1,29 @@
+.bookmark {
+    display: flex;
+    flex-wrap: wrap;
+    /* min-height: 150px; */
+    padding: 0.5em;
+    
+    /* justify-content: center; */
+}
+
+.bookmark .item {
+    width: 100px;
+    margin: 12px;
+    padding-bottom: 0.5em;
+    border-radius: 10px;
+    background: #fff;
+    text-align: left;
+    text-align: center;
+}
+
+.bookmark .item img {
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.bookmark .item h5 {
+    font-size: 12px;
+    margin: 0.5em 0;
+}

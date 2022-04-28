@@ -1,0 +1,50 @@
+.book {
+    position: relative;
+    width: 200px;
+    margin: 12px;
+    padding-bottom: 0.5em;
+    transition: transform 500ms;
+    border-radius: 10px;
+    background: #fff;
+    text-align: left;
+}
+
+.book button {
+    display: block;
+    margin: 0.5em 0;
+    background: #CEEFF6;
+    border: none;
+    border-radius: 2px;
+    color: #1D92AC;
+    width: 50px;
+    height: 30px;
+}
+
+.book button:hover {
+    background: #1D92AC;
+    cursor: pointer;
+    color: #CEEFF6;
+}
+
+.book img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    /* z-index: ; */
+}
+
+.book h4 {
+    font-size: 16px;
+    margin: 0.5em 0;
+}
+
+.book span {
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+.book:hover,
+.book:focus {
+    transform: scale(1.2);
+    z-index: 1;
+}
